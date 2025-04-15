@@ -15,7 +15,6 @@ public class NonBDDStyleGetRequest {
         System.out.println("Status Code: " + response.getStatusCode());
         System.out.println("Response Body: " + response.getBody().asString());
 
-        
         Assert.assertEquals(response.getStatusCode(), 200,"Passed");
 
     }
