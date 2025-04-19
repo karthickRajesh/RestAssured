@@ -24,6 +24,7 @@ public class CreateTokenPOSTAPI {
         requestSpecification.contentType(ContentType.JSON);
         requestSpecification.body(jsonRequest);
 
+
         Response response = requestSpecification.post("/auth");
 
         System.out.println("Token is " + response.getBody().asString());
