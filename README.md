@@ -19,23 +19,28 @@ It covers practical API automation examples using real-world REST APIs.
 ## Practice Websites
 - https://restful-booker.herokuapp.com/apidoc/index.html
 
-## Will be practicing below cases
+## Test Cases Practiced
 
-### API CRUD Operations
+<details>
+<summary><b>Restful Booker Cases Practiced</b></summary>
+
+#### API CRUD Operations
 - Create a POST Request and validate (`CreateTokenPOSTAPI.java`)
 - Create a PUT Request and validate (`UpdateBookingPUTAPI.java`)
 - Create a PATCH Request and validate (`PartialUpdateBookingPATCHAPI.java`)
 - Create a GET Request and validate (`GetBookingsAPI.java`)
 - Create a DELETE Request and validate (`DeleteBookingDELETEAPI.java`)
 
-### Request Body Creation
+#### Request Body Creation
 - Creating and Sending RequestBody as Map (`CreatingRequestBodyUsingMap.java`)
 - Creating JSONObject using Jackson API (`CreateJsonObjectUsingJacksonAPI.java`)
 - Creating JSONARRAY using Jackson API (`CreateJsonArrayUsingJacksonAPI.java`)
 
-### Serialization & Deserialization
+#### Serialization & Deserialization
 - Serialization and Deserialization (`EmployeeSerializationDeserialization.java`)
 
-### File Handling
+#### File Handling
 - Writing response in TextFile (`WriteResponseInTextFile.java`)
 - Sending File as Payload (`SendFileAsPayload.java`)
+
+</details>

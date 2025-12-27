@@ -15,7 +15,7 @@ public class SendFileAsPayload {
     @Test
     public void sendJsonFileAsPayload(){
 
-        File jsonFile = new File("src/test/resources/AuthPayload.json");
+        File jsonFile = new File("src/test/resources/practiceRestfulBooker/AuthPayload.json");
 
         ValidatableResponse response = RestAssured.given().baseUri("https://restful-booker.herokuapp.com/auth")
                 .contentType(ContentType.JSON).body(jsonFile).post().then();
